@@ -1,10 +1,9 @@
-import { Button } from 'ui';
+import Hero from '@/components/organisms/Hero';
 
 export default function Web() {
-	return (
-		<div>
-			<h1 className='p-2 bg-black'>Web</h1>
-			<Button />
-		</div>
-	);
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
