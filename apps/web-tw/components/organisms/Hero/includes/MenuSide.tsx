@@ -63,8 +63,10 @@ export default function MenuSide() {
 
   const cardContent = useMemo(
     () =>
-      CARD_CONTENT.map(({ title, subtitle, content }, index, arr) => (
-        <Card {...{ title, subtitle }}>{content}</Card>
+      CARD_CONTENT.map(({ title, subtitle, content }, index) => (
+        <Card key={`hero-card-${index}`} {...{ title, subtitle }}>
+          {content}
+        </Card>
       )),
     [],
   );
