@@ -13,7 +13,7 @@ const NAV_BUTTONS = [
   { title: 'Sign Up!', accent: true },
 ];
 
-const CARD_CONTENT = [
+const CARDS = [
   {
     title: '1K+ People',
     subtitle: 'Successfully Getting Home',
@@ -63,7 +63,7 @@ export default function MenuSide() {
 
   const cardContent = useMemo(
     () =>
-      CARD_CONTENT.map(({ title, subtitle, content }, index) => (
+      CARDS.map(({ title, subtitle, content }, index) => (
         <Card key={`hero-card-${index}`} {...{ title, subtitle }}>
           {content}
         </Card>
