@@ -27,7 +27,9 @@ export default function HeadingSide() {
         <br />
         {'live '}
 
-        <span className="text-transparent">{'your dreams'}</span>
+        <span className="font-[sans-serif] text-transparent">
+          {'your dreams'}
+        </span>
 
         <br />
         {'easily here'}

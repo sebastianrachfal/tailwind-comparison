@@ -9,10 +9,14 @@ module.exports = {
       fontFamily: {
         primary: 'Lexend, sans-serif',
       },
+      boxShadow: {
+        avatar: '0px 9px 32px rgba(89, 92, 219, 0.1)',
+      },
     },
     colors: {
       white: '#FFFFFF',
       headline: '#1B1C57',
+      subheadline: '#68799F',
       transparent: '#00000000',
       yellow: {
         500: '#F59E0B',
